@@ -27,7 +27,7 @@
               </p>
               <p>
                 The content for this page is in the <code>LeadStory.vue</code> component in 
-                the <code>src/components</code> directory.  The other section on this page 
+                the <code>src/components</code> directory.  The other sections on this page 
                 are in the components directory as well.
               </p>
             </div>

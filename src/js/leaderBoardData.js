@@ -4,7 +4,7 @@ export const data = [
     img: '/images/icons/btc.webp',
     name: 'Bitcoin',
     symbol: 'BTC',
-    price: '99',
+    rating: '99',
     change: '+4.20%',
     action: 'Buy',
     link: 'https://bitcoin.org/en/'
@@ -14,7 +14,7 @@ export const data = [
     img: '/images/icons/michigan.webp',
     name: 'Michigan',
     symbol: 'MF',
-    price: '97',
+    rating: '97',
     change: '+1.69%',
     action: 'Buy',
     link: 'https://mgoblue.com/sports/football'
@@ -24,7 +24,7 @@ export const data = [
     img: '/images/icons/x.webp',
     name: 'Twitter',
     symbol: 'X',
-    price: '92',
+    rating: '92',
     change: '-3.96%',
     action: 'Sell',
     link: 'https://x.com/Trip_Kendall'
@@ -34,7 +34,7 @@ export const data = [
     img: '/images/icons/fla.webp',
     name: 'Florida',
     symbol: 'FLA',
-    price: '86',
+    rating: '86',
     change: '+1.36%',
     action: 'Buy',
     link: 'https://www.theflstandard.com/'
@@ -44,7 +44,7 @@ export const data = [
     img: '/images/icons/rfk.webp',
     name: 'Robert Kennedy Jr',
     symbol: 'RFK',
-    price: '77',
+    rating: '77',
     change: '-0.96%',
     action: 'Sell',
     link: 'https://2024.wtf/posts/RobertFKennedyJr.html'
@@ -54,7 +54,7 @@ export const data = [
     img: '/images/icons/dodge.svg',
     name: 'Dodge',
     symbol: 'DDC',
-    price: '76',
+    rating: '76',
     change: '+2.42%',
     action: 'Sell',
     link: 'https://dogecoin.com/'
@@ -64,7 +64,7 @@ export const data = [
     img: '/images/icons/santa.webp',
     name: 'Christmas',
     symbol: 'CHR',
-    price: '75',
+    rating: '75',
     change: '+3.33%',
     action: 'Buy',
     link: 'https://www.google.com'
@@ -74,7 +74,7 @@ export const data = [
     img: '/images/icons/rumble.webp',
     name: 'Rumble',
     symbol: 'CHR',
-    price: '70',
+    rating: '70',
     change: '-0.16%',
     action: 'Buy',
     link: 'https://rumble.com/'
@@ -84,7 +84,7 @@ export const data = [
     img: '/images/icons/dillion.webp',
     name: 'Tim Dillon',
     symbol: 'TD',
-    price: '66',
+    rating: '66',
     change: '+0.32%',
     action: 'Buy',
     link: 'https://www.timdilloncomedy.com/'
@@ -94,7 +94,7 @@ export const data = [
     img: '/images/icons/haley.webp',
     name: 'Nikki Haley',
     symbol: 'NH',
-    price: '62',
+    rating: '62',
     change: '+1.23%',
     action: 'Buy',
     link: 'https://wlog.app/posts/nikki-haley-gop-contender.html'

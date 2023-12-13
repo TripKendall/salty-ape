@@ -7,9 +7,11 @@ Salty Ape is more than a Vue Template.
 
 But yeah, it's also a Vue Template. So there's that. More specifically it's a Vue 3 SPA Template that uses Bootstrap instead of Tailwind CSS.
 
+### See it in action: [SaltyApe.com](https://saltyape.com/)
+
 ## Why did you make this?
 
-My frontend.us template was starting to show its age and I needed a break from Tailwind... I wanted something fresh. Something that I could grab and instantly started with.
+My [frontend.us template](https://github.com/TripKendall/front-end) was starting to show its age and I needed a break from Tailwind... I wanted something fresh. Something that I could grab and instantly started with.
 
 Unlike my previous free templates this one is a SPA - no router, views, etc. All the code is in /components called by app.vue. As simple as it gets so that it's as flexible and versatile as it can be. I'm sure I'll need a version with VueRouter and views at some point and will add that as a branch.
 

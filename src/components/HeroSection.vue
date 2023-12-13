@@ -1,5 +1,5 @@
 <template>
-  <section class="pre-data-table-live-tream data-table-live-tream">
+  <section class="pre-leader-board leader-board">
     <div class="container w-75">
       <div class="hero-section-content text-center">
         <img :src="pageData.image" :alt="pageData.subtitle" class="img-fluid">

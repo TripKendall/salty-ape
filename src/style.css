@@ -11272,22 +11272,22 @@ body {
 }
 
 
-.pre-data-table-live-tream {
+.pre-leader-board {
   padding-top: 125px !important;
 }
 
-.data-table-live-tream {
+.leader-board {
   padding: 50px 0 78px;
 }
 
-.data-table-live-tream .data-table-live-table {
+.leader-board .data-table-wrapper {
   background-color: #fff;
   border-radius: 1.625rem;
   box-shadow: 0 18px 62px rgba(0, 0, 0, 0.06);
   padding-bottom: 1px;
 }
 
-.data-table-live-tream .data-table-live-table::before {
+.leader-board .data-table-wrapper::before {
   content: "";
   position: absolute;
   width: 239.51px;
@@ -11300,7 +11300,7 @@ body {
   opacity: 0.33;
 }
 
-.data-table-live-tream .data-table-live-table::after {
+.leader-board .data-table-wrapper::after {
   content: "";
   position: absolute;
   width: 81px;
@@ -11312,57 +11312,72 @@ body {
   background-repeat: no-repeat;
 }
 
-.data-table-live-tream .data-table-live-table .data-table-title {
+.leader-board .data-table-wrapper .data-table-title {
   padding: 25px 55px 26px;
 }
 
-.data-table-live-tream .data-table-live-table .table thead tr {
+.leader-board .data-table-wrapper .table thead tr {
   border-top: 1.6px solid #DCE1E8;
   border-bottom: 1.6px solid #DCE1E8;
 }
 
-.data-table-live-tream .data-table-live-table .table thead tr th:first-child {
+.leader-board .data-table-wrapper .table thead tr th:first-child {
   padding-left: 68px;
 }
 
-.data-table-live-tream .data-table-live-table .table thead tr th:last-child {
+.leader-board .data-table-wrapper .table thead tr th:last-child {
   padding-right: 68px;
 }
 
-.data-table-live-tream .data-table-live-table .table tbody tr td:first-child {
+.leader-board .data-table-wrapper .table tbody tr td:first-child {
   padding-left: 68px;
 }
 
-.data-table-live-tream .data-table-live-table .table tbody tr td:last-child {
+.leader-board .data-table-wrapper .table tbody tr td:last-child {
   padding-right: 68px;
 }
 
-.data-table-live-tream .data-table-live-table .table tbody tr td {
+.leader-board .data-table-wrapper .table tbody tr td {
   font-weight: 500;
 }
 
-.data-table-live-tream .data-table-live-table .table tbody tr td .coin-name .coin-img {
+.leader-board .data-table-wrapper .table tbody tr td .link-name .link-img {
   margin-right: 25px;
   min-width: 40px;
 }
 
-.data-table-live-tream .data-table-live-table .table tbody tr td .coin-name .coin-title .coin-title-small {
+.leader-board .data-table-wrapper .table tbody tr td .link-name .link-url .link-symbol {
   margin-left: 8px;
   color: #94979A;
 }
 
-.data-table-live-tream .data-table-live-table .table tbody tr .green-text {
+.leader-board .data-table-wrapper .table tbody tr .green-text {
   color: #00277f;
 }
 
-.data-table-live-tream .data-table-live-table .table tbody tr .red-text {
+.leader-board .data-table-wrapper .table tbody tr .red-text {
   color: #cf2966;
 }
 
-.data-table-live-tream .data-table-live-table .data-table-title a {
+.leader-board .data-table-wrapper .data-table-title a {
   font-weight: 500;
   letter-spacing: 0.01em;
   line-height: 29px;
+}
+
+.leader-board-image {
+  width: 33px !important;
+  height: 33px !important;
+  margin-right: 10px;
+  border-radius: 999px;
+}
+
+.gray-link {
+  color: #323342 !important;
+}
+
+.gray-link:hover {
+  color: #5b0389 !important;
 }
 
 .tri-stories {
@@ -11435,7 +11450,7 @@ body {
 .lead-story .lead-story-wrapper .lead-story-content .small-title {
   letter-spacing: 0.1em;
   font-weight: 400;
-  margin-bottom: 11px;
+  margin-bottom: 10px;
 }
 
 .lead-story .lead-story-wrapper .lead-story-content .title {
@@ -11466,11 +11481,12 @@ body {
 }
 
 .faq {
-  padding: 100px 50px 75px 50px;
+  padding: 100px 50px;
+  margin-bottom: 100px;
 }
 
 .faq .section-title {
-  margin-bottom: 75px;
+  margin-bottom: 100px;
 }
 
 .faq .item {
@@ -11479,21 +11495,9 @@ body {
 
 }
 
-.faq .section-title::before {
-  content: "";
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  right: 28%;
-  top: -60px;
-  /* background-image: url(/images/keyboard.svg);
-  background-repeat: no-repeat; */
-  z-index: -1;
-}
-
 .faq .section-title .small-title {
   letter-spacing: 0.1em;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .faq .section-title .title {
@@ -11507,29 +11511,23 @@ body {
 }
 
 .main-footer .footer-wrapper {
-  padding: 80px 0 90px;
+  padding: 66px 0 66px;
 }
 
 
-.main-footer .footer-wrapper .footer-logo-content .footer-item-content {
-  max-width: 453px;
+.main-footer .footer-wrapper .footer-logo-content {
+  max-width: 250px;
   width: 100%;
 }
 
-.main-footer .footer-wrapper .footer-logo-content .footer-item-content .text {
-  color: #EFEFEF;
-  margin-bottom: 25px;
-  letter-spacing: 0.04em;
-  font-weight: 400;
-}
 
 .main-footer .footer-wrapper h5 {
   color: #fff;
-  margin-bottom: 18px;
+  margin-bottom: 15px;
 }
 
 .main-footer .footer-wrapper ul {
-  margin-bottom: 50px;
+  margin-bottom: 33px;
 }
 
 .main-footer .footer-wrapper ul li {
@@ -11551,11 +11549,12 @@ body {
 }
 
 .main-footer .copyright-text {
+  text-align: center;
   padding: 33px 0;
-  border-top: 1px solid rgba(203, 203, 203, 0.2);
+  border-top: 3px solid rgba(139, 10, 203, 0.33);
 }
 
-.main-footer .copyright-text p {
+.main-footer p {
   color: #EFEFEF;
 }
 
@@ -11599,10 +11598,6 @@ body {
     margin: 0 0 0 0;
   }
 
-  .faq {
-    padding: 100px 0 56px;
-  }
-
 }
 
 @media (max-width: 991.98px) {
@@ -11619,27 +11614,27 @@ body {
     margin-bottom: 50px;
   }
 
-  .data-table-live-tream {
+  .leader-board {
     padding: 80px 0 65px;
   }
 
-  .data-table-live-tream .data-table-live-table .data-table-title {
+  .leader-board .data-table-wrapper .data-table-title {
     padding: 24px 24px 24px;
   }
 
-  .data-table-live-tream .table thead tr th:first-child {
+  .leader-board .table thead tr th:first-child {
     padding-left: 18px !important;
   }
 
-  .data-table-live-tream .table thead tr th:last-child {
+  .leader-board .table thead tr th:last-child {
     padding-right: 18px !important;
   }
 
-  .data-table-live-tream .table tbody tr td:first-child {
+  .leader-board .table tbody tr td:first-child {
     padding-left: 18px !important;
   }
 
-  .data-table-live-tream .table tbody tr td:last-child {
+  .leader-board .table tbody tr td:last-child {
     padding-right: 18px !important;
   }
 
@@ -11673,11 +11668,11 @@ body {
   }
 
   .faq {
-    padding: 60px 0 36px;
+    padding: 60px 0 30px;
   }
 
   .faq .faq-wrapper .section-title {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   .main-footer .footer-wrapper {
@@ -11755,7 +11750,7 @@ body {
     padding: 0px 0 50px;
   }
 
-  .data-table-live-tream {
+  .leader-board {
     padding: 40px 0 45px;
   }
 
@@ -11773,26 +11768,26 @@ body {
 
 
   #faq {
-    padding: 50px 0 30px;
+    padding: 60px 30px;
 
   }
 
   .faq .section-title {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
 
   .faq-wrapper {
     display: block;
-    margin: 3rem !important;
+    margin: 2rem !important;
   }
 
   .faq .item {
     display: block;
-    padding: 35px 22px 30px 22px;
+    padding: 20px;
   }
 
   .faq-content-text {
-    padding: 20px 0 20px 0;
+    padding: 10px 0;
     text-align: center;
   }
 
